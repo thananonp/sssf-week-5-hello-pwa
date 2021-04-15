@@ -3,10 +3,12 @@ const  cacheName = 'hello-pwa';
 const filesToCache = [
     './',
     './index.html',
+    './favicon.ico',
     './css/style.css',
     './css/all.css',
+    './fonts/Rubik-Medium.ttf',
     './js/main.js',
-    './fonts/Rubik-Medium.ttf'
+    './webfonts',
 ];
 
 /* Start the service worker and cache all of the app's content */
